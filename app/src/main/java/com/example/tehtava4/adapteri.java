@@ -43,7 +43,7 @@ public class adapteri extends ArrayAdapter<luokka> {
         TextView lista = v.findViewById(R.id.textView1);
         TextView lista2 = v.findViewById(R.id.textView2);
         lista.setText(data.get(position).getTitle());
-        lista2.setText(data.get(position).getTitle());
+        lista2.setText(data.get(position).getBody());
 
 
 
